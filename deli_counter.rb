@@ -8,7 +8,7 @@ def line(katz_deli)
     customers_in_line = katz_deli.size
     customers = 0
     while customers < customers_in_line
-      puts "The line is currently: 1. #{katz_deli.join(" #{katz_deli.each_index}")}"
+      puts "The line is currently: 1. #{katz_deli.join(" #{katz_deli.index}")}"
     end
   end
 end
