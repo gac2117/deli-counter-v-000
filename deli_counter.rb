@@ -11,6 +11,6 @@ def line(katz_deli)
       customer_in_line << "#{customers}. #{customer}"
       customers += 1
     end
-    puts "The line is currently: #{customer_in_line}"
+    puts "The line is currently: #{customer_in_line.join}"
   end
 end
