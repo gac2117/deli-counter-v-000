@@ -9,4 +9,6 @@ def line(katz_deli)
     customers = 0
     while customers < customers_in_line
       puts "The line is currently: #{katz_deli.join("#{customers+1}")}"
-      
+    end
+  end
+end
