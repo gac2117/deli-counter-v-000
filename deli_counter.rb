@@ -8,5 +8,5 @@ def line(katz_deli)
     customers_in_line = katz_deli.size
     customers = 0
     while customers < customers_in_line
-      katz_deli.each do |customer|
-        puts "The line is currently: #{customers+1}. #{customer}"
+      puts "The line is currently: #{katz_deli.join("#{customers+1}")}"
+      
